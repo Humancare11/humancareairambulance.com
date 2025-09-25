@@ -179,7 +179,7 @@ const Home = () => {
             className="space-y-8"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight text-shadow">
-              Professional Medical
+              Professional Medical satish
               <br />
               <span className="text-300">Transport Services</span>
             </h1>
