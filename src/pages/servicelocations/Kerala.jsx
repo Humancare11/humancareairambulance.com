@@ -5,11 +5,11 @@ export default function Oman() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Kerala | Human Care Air Ambulance</title>
+                <title>Air Ambulance Services in Kerala - (kochi)</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="humancare offers affordable air ambulance services in kerala and medical helicopter services in Kochi, Kerala Our medically equipped aircraft"
                 />
             </Helmet>
 

@@ -5,11 +5,13 @@ export default function Delhi() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Delhi | Human Care Air Ambulance</title>
+                <title>
+Best Air Ambulance In Delhi By Human Care - Mumbai, India: Human Care Air Ambulance</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="
+In a medical emergency, humancare is your reliable Air ambulance service in Delhi and all NCR areas. Our Air Ambulance Services in New Delhi."
                 />
             </Helmet>
 

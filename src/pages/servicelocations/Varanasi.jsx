@@ -5,12 +5,11 @@ export default function Varanasi() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Varanasi
-                     | Human Care Air Ambulance</title>
+                <title>Air Ambulance Services in Varanasi</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="Are you seeking for high-tech air ambulance services in Varanasi then contact us any time from any place. 24/7 emergency services."
                 />
             </Helmet>
 

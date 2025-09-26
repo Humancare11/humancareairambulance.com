@@ -35,22 +35,22 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      location: 'New York',
+      name: 'Ramesh Gupta',
+      location: ' Jaipur, India',
       rating: 5,
-      text: 'HumanCare saved my father\'s life. Their quick response and professional medical team made all the difference during our emergency.'
+      text: 'Thanks to HumanCare, my father received life-saving care. Their rapid response and skilled medical team ensured everything went smoothly during a critical emergency.'
     },
     {
-      name: 'Michael Chen',
-      location: 'California',
+      name: 'Anita Sharma',
+      location: ' Jaipur, India',
       rating: 5,
-      text: 'Exceptional service during a very difficult time. The medical staff was compassionate and highly skilled throughout the entire journey.'
+      text: 'Truly outstanding support during a challenging time. The medical team was professional, caring, and ensured every step of the journey was smooth'
     },
     {
-      name: 'Emily Rodriguez',
-      location: 'Texas',
+      name: 'Vikram Singh',
+      location: 'Bengaluru, India',
       rating: 5,
-      text: 'Professional, caring, and efficient. HumanCare exceeded our expectations in every way. Highly recommended for medical transport.'
+      text: 'HumanCare provided professional, compassionate, and efficient service. They went above and beyond in every aspect of the medical transport. Highly recommended!'
     }
   ];
 
@@ -64,19 +64,19 @@ const Home = () => {
   const faqs = [
     {
       question: "What is an air ambulance?",
-      answer: "An air ambulance is a specially equipped aircraft, either a helicopter or a fixed-wing plane, used to transport injured or sick people in a medical emergency or over long distances. They are staffed with medical professionals and function like a mobile intensive care unit."
+      answer: "An air ambulance is a specially outfitted aircraft, either a fixed-wing or helicopter, intended for quick and safe medical patient transport during emergency services or long-distance international transfers. With a dedicated medical escort and smooth ground ambulance support from pickup to hospital, it operates as a mobile intensive care unit (ICU) manned by qualified physicians, nurses, and paramedics."
     },
     {
-      question: "When should I consider an air ambulance?",
-      answer: "You should consider an air ambulance for time-sensitive medical emergencies, when a patient needs to be transported over a long distance, or when ground transport is not feasible due to terrain or traffic. It's crucial for patients requiring specialized medical care during transit."
+      question: "When Is an Air Ambulance a Good Option?",
+      answer: "In emergency situations where every minute matters, for long-distance medical transport, or when ground ambulance travel is impractical because of traffic, terrain, or other limitations, you should choose an air ambulance. It's perfect for patients who require ongoing observation, intensive care unit treatment, or a qualified medical escort while in transit, including when transferring internationally."
     },
     {
-      question: "How much does an air ambulance service cost?",
-      answer: "The cost varies widely based on factors like the type of aircraft, distance of transport, medical team required, and the patient's condition. We provide a detailed, transparent quote after assessing your specific needs. Contact us for a personalized estimate."
+      question: "What Is the Price of an Air Ambulance Service?",
+      answer: "The type of aircraft, distance, emergency services level, intensive care unit needs, and the requirement for a medical escort are some of the variables that affect the cost of an air ambulance. After evaluating your patient's unique needs, we provide an open, customized quote for both domestic and international medical transport. For a precise estimate, get in touch with us at any time."
     },
     {
-      question: "Is HumanCare accredited?",
-      answer: "Yes, HumanCare is fully accredited by the Commission on Accreditation of Medical Transport Systems (CAMTS), which is the gold standard in the air ambulance industry. This ensures we meet the highest standards of safety and patient care."
+      question: "Does HumanCare Have an Accreditation?",
+      answer: "The Commission on Accreditation of Medical Transport Systems (CAMTS), the premier organization for air ambulance and medical transport services, has granted HumanCare full accreditation. This guarantees that every mission, be it international transfer, ground ambulance connection, or emergency services, satisfies the highest standards of professionalism, safety, and care."
     }
   ];
 
@@ -84,22 +84,22 @@ const Home = () => {
     {
       number: '01',
       title: 'Emergency Call',
-      description: 'Contact our 24/7 dispatch center. Our medical coordinators will gather critical information.'
+      description: 'Contact our dispatch center at any time. In order to schedule air ambulance and medical transport services in a timely manner, our coordinators gather essential information.'
     },
     {
       number: '02',
-      title: 'Medical Assessment',
-      description: 'Our medical team reviews the patient\'s condition to determine the appropriate level of care and aircraft.'
+      title: 'Medical Evaluation',
+      description: 'To ascertain the degree of care, ICU configuration, and any medical escort requirements for a safe trip, our skilled medical staff assesses the patient.'
     },
     {
       number: '03',
-      title: 'Dispatch & Transport',
-      description: 'The flight and medical crew are dispatched. We provide seamless bed-to-bed care until arrival.'
+      title: 'Transport & Dispatch',
+      description: 'Complete emergency services are provided by the air ambulance crew. Whether the transfer is domestic or international, we guarantee smooth bed-to-bed medical transport and ground ambulance connectivity.'
     },
     {
       number: '04',
-      title: 'Safe Arrival',
-      description: 'Upon arrival, we ensure a smooth handover to the receiving medical facility.'
+      title: 'Arrival Safety',
+      description: 'We ensure a safe and comfortable medical transfer by transferring the patient to the receiving facility with full continuity of care upon arrival.'
     }
   ];
 
@@ -179,14 +179,12 @@ const Home = () => {
             className="space-y-8"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight text-shadow">
-              Professional Medical satish
-              <br />
-              <span className="text-300">Transport Services</span>
+Air Ambulance Services &              <br />
+              <span className="text-300">Global Medical Transport - Humancare </span>
             </h1>
             
             <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-100">
-              When every second counts, trust HumanCare for rapid, professional medical transport. 
-              Our experienced team provides compassionate care during critical moments.
+              Air ambulance services by Human Care Air Ambulance deliver safe, reliable, and 24/7 medical transport. With ICU-equipped aircraft and skilled medical teams, we ensure seamless patient transfers with care and expertise.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -244,11 +242,9 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Core Air Ambulance Services
-            </h2>
+Air Ambulance Services We Provide            </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Specialized air medical solutions for every critical situation, ensuring rapid and safe transport.
-            </p>
+For every emergency, we offer specialized air ambulance services. Using intensive care units (ICUs), skilled physicians, ground ambulance support, and committed medical escort care, our team guarantees safe and dependable medical transport for everything from emergency services and critical care to international transfers.            </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -288,24 +284,23 @@ const Home = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Compassionate Care in the Skies
+Caring for Others in the Air
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                For over 15 years, HumanCare has been a beacon of hope, providing world-class medical transport with a human touch. Our mission is simple: to save lives and deliver peace of mind when it matters most.
-              </p>
+Humancare has been a reputable name in air ambulance and medical transport for more than 15 years, providing top-notch care with a personal touch. Our goal is straightforward: to deliver dependable emergency services when it counts most, save lives, and give people peace of mind.s              </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
                   <CheckCircle className="h-6 w-6 text-primary-blue mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900">Bed-to-Bed Service</h3>
-                    <p className="text-gray-600">We manage every detail of the transport, from the sending hospital to the receiving facility.</p>
+                    <h3 className="text-lg font-semibold text-gray-900">Bed-to-Bed Assistance</h3>
+                    <p className="text-gray-600">Every trip is smooth. We manage every stage with accuracy, from ground ambulance pickup at the sending hospital to a safe arrival at the receiving facility. We guarantee continuity of care whether a patient needs an onboard intensive care unit or a qualified medical escort.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <CheckCircle className="h-6 w-6 text-primary-blue mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Global Reach</h3>
-                    <p className="text-gray-600">Our international network ensures you can get the care you need, wherever you are.</p>
+                    <p className="text-gray-600">Care is never hindered by distance. Our medical repatriation and international transfer services link patients to hospitals worldwide through a vast network, providing quick, safe, and caring transportation whenever and wherever it's required.</p>
                   </div>
                 </div>
               </div>
@@ -341,11 +336,10 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Life-Saving Process
+Our Method for Preserving Life
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A streamlined, 4-step process designed for speed, safety, and seamless care.
-            </p>
+From the initial call to the final handover, a four-step process that includes emergency services, ground ambulance support, medical escort, and a seamless international transfer guarantees that every air ambulance mission is safe, quick, and seamless.            </p>
           </motion.div>
           <div className="relative">
             <div className="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-gray-300 -translate-y-1/2"></div>
@@ -390,11 +384,10 @@ const Home = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                State-of-the-Art Fleet & Team
+Modern Fleet & Staff
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                We combine cutting-edge technology with compassionate care to ensure the best possible outcomes for our patients.
-              </p>
+Whether for emergency services, ground ambulance connections, or international transfers, our state-of-the-art air ambulance fleet and equipment, along with our skilled medical transport capabilities, guarantee safe and effective patient transfers.              </p>
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
@@ -402,8 +395,9 @@ const Home = () => {
                     <Shield className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Certified Medical Team</h3>
-                    <p className="text-gray-600">Highly trained paramedics, nurses, and doctors with specialized transport experience.</p>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Medical Team with Certification
+</h3>
+                    <p className="text-gray-600">Specialized medical escort and in-flight intensive care unit care is provided by highly qualified physicians, nurses, and paramedics who combine clinical expertise with compassion.</p>
                   </div>
                 </div>
                 
@@ -412,8 +406,9 @@ const Home = () => {
                     <Clock className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Rapid Response</h3>
-                    <p className="text-gray-600">Our logistics team ensures the fastest possible response time for every mission.</p>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Quick Reaction
+</h3>
+                    <p className="text-gray-600">Critical medical transport is dependable and timely because our logistics and coordination team guarantees the quickest response for each air ambulance mission.</p>
                   </div>
                 </div>
                 
@@ -422,8 +417,9 @@ const Home = () => {
                     <Heart className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Compassionate Care</h3>
-                    <p className="text-gray-600">Patient-centered approach with emotional support for families during difficult times.</p>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Caring for Others
+</h3>
+                    <p className="text-gray-600">At every stage of emergency services and international transfer journeys, we put patients and their families first by providing emotional support and a patient-centered approach.</p>
                   </div>
                 </div>
               </div>

@@ -5,11 +5,12 @@ export default function Bangladesh() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Chennai | Human Care Air Ambulance</title>
+                <title>
+Air Ambulance Service in Bangladesh - humancare world wide</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="Air ambulance service in bangladesh is a modern air ambulance service that provides emergency medical services and first aid to people in remote areas of Bangladesh."
                 />
             </Helmet>
 

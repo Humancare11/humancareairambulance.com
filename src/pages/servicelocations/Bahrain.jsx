@@ -5,11 +5,11 @@ export default function Bahrain() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Bahrain | Human Care Air Ambulance</title>
+                <title>24/7 Air Ambulance Services in Bahrain | Middle East | ASIA</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="humancare can arrange air ambulance services in bahrain or back to Bahrain."
                 />
             </Helmet>
 

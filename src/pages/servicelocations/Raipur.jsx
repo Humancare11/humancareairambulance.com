@@ -5,11 +5,11 @@ export default function Raipur() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Raipur | Human Care Air Ambulance</title>
+                <title>Best Air Ambulance Services in Raipur</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="humancare the best Air ambulance services in Raipur, offers a wide range of advanced treatments for the people who require emergency medical care."
                 />
             </Helmet>
 

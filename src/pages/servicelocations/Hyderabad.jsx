@@ -5,11 +5,12 @@ export default function Hyderabad() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Hyderabad | Human Care Air Ambulance</title>
+                <title>Air Ambulance Services in Hyderabad - Air ambulance in hyderabad</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="
+Humancare air ambulance services in Hyderabad provides affordable flight ambulance and medical helicopter ambulance in Hyderabad"
                 />
             </Helmet>
 

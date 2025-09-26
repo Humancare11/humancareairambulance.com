@@ -5,11 +5,11 @@ export default function Bangalore() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Bangalore | Human Care Air Ambulance</title>
+                <title>Best Air Ambulance Services in Bangalore - Mumbai, India: Human Care Air Ambulance</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="Which is the best Air Ambulance services in Bangalore at a minimum price? humancare Air Ambulance provides an excellent Air Ambulance Service."
                 />
             </Helmet>
 

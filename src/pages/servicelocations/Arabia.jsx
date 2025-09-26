@@ -5,11 +5,11 @@ export default function Arabia() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Arabia | Human Care Air Ambulance</title>
+                <title>Air Ambulance Services in Saudi Arabia</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="Looking for Air ambulance services in Saudi Arabia? We provide air ambulance services from Saudi Arabia to India In fastest and safest mode of transferring"
                 />
             </Helmet>
 

@@ -9,7 +9,7 @@ export default function Ahmedabad() {
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="Human Care is on a mission to save lives through various medical services like Air Ambulance, Ground ambulance, Transfer etc in India."
                 />
             </Helmet>
 

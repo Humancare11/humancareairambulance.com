@@ -5,11 +5,11 @@ export default function Surat() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Surat | Human Care Air Ambulance</title>
+                <title>Air Ambulance Services in Surat</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="humancare air ambulance services in Surat at low cost with medical team. Call us anytime we provide air ambulance service from Surat"
                 />
             </Helmet>
 

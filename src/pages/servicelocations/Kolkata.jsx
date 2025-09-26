@@ -5,11 +5,11 @@ export default function Oman() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Kolkata | Human Care Air Ambulance</title>
+                <title>Air Ambulance Services in Kolkata - Mumbai, India: Human Care Air Ambulance</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="We are here to provide you with the fastest air ambulance services in Kolkata. has been the city's pioneer in ambulance services."
                 />
             </Helmet>
 

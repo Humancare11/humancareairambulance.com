@@ -5,11 +5,11 @@ export default function Pakistan() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Pakistan | Human Care Air Ambulance</title>
+                <title>Air Ambulance Services in Pakistan - Mumbai, India: Human Care Air Ambulance</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="we provide Air Ambulance services in Pakistan with all latest equipment's to meet any kind of emergencies. We provide round the clock service"
                 />
             </Helmet>
 

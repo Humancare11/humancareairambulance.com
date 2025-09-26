@@ -15,17 +15,17 @@ const PrivateAirAmbulance = () => {
   };
 
   const features = [
-    { icon: Shield, title: 'ICU-Level Care', description: 'Our aircraft are equipped as flying intensive care units, with state-of-the-art medical technology.' },
-    { icon: Heart, title: 'Specialized Medical Team', description: 'A dedicated team of flight physicians, nurses, and paramedics accompanies every patient.' },
-    { icon: Clock, title: 'Rapid Deployment', description: 'We can be airborne within hours of your call, ensuring timely transport for critical cases.' },
-    { icon: Plane, title: 'Bed-to-Bed Service', description: 'We manage the entire process, from the patient\'s bedside at the sending facility to the receiving hospital.' },
+    { icon: Shield, title: 'ICU-Level Care', description: 'Our aircraft function as flying ICUs, fully equipped with advanced medical technology.' },
+    { icon: Heart, title: 'Specialized Medical Team', description: 'Each patient is supported by a specialized team of flight physicians, nurses, and paramedics.' },
+    { icon: Clock, title: 'Rapid Deployment', description: 'Within hours of your call, we are airborne delivering fast and timely transport for critical cases.' },
+    { icon: Plane, title: 'Bed-to-Bed Service', description: 'We handle everything from the patient’s bedside at the sending facility to arrival at the receiving hospital.' },
   ];
 
   const faqs = [
-    { question: "What is an air ambulance?", answer: "An air ambulance is a specially equipped aircraft..." },
-    { question: "When should I consider an air ambulance?", answer: "You should consider an air ambulance for time-sensitive..." },
-    { question: "How much does an air ambulance service cost?", answer: "The cost varies widely based on factors..." },
-    { question: "Is HumanCare accredited?", answer: "Yes, HumanCare is fully accredited by CAMTS..." }
+    { question: "What is an Air Ambulance?", answer: "An air ambulance in India is a specially equipped aircraft or helicopter designed for patients requiring urgent medical care. These air ambulance services function as flying intensive care units, equipped with advanced medical technology, critical care facilities, and a team of doctors, nurses, and paramedics onboard. They are used for emergency medical evacuations, long-distance transfers, and international patient repatriation, with clear and transparent air ambulance cost options" },
+    { question: "When Should I Consider an Air Ambulance?", answer: "You should consider air ambulance services for time-sensitive medical situations where rapid transport is critical. This includes severe injuries, life-threatening illnesses, or patients requiring continuous ICU-level care during long-distance or international transfers. Air ambulance services ensure quick, safe, and well-monitored medical transport when every minute counts." },
+    { question: "How Much Does an Air Ambulance Cost?", answer: "The air ambulance cost depends on factors such as distance, type of aircraft, medical equipment, and level of care. Our air ambulance services in India cover both domestic and international transfers, with domestic transfers generally costing less than international repatriation. Specialized ICU equipment or medical escorts may affect pricing, and we provide transparent, customized quotes for every patient transfer." },
+    { question: "Is HumanCare accredited?", answer: "Yes, HumanCare is fully accredited by CAMTS (Commission on Accreditation of Medical Transport Systems), ensuring the highest standards of safety, quality, and professional care in every air ambulance and medical transport service we provide" }
   ];
 
 
@@ -33,16 +33,16 @@ const PrivateAirAmbulance = () => {
     <>
       <Helmet>
         <title>Private Air Ambulance Services | HumanCare</title>
-        <meta name="description" content="Dedicated private air ambulance services for critical medical transport. Our fixed-wing aircraft provide ICU-level care for long-distance and international patient transfers." />
+        <meta name="description" content="Get fast, safe, and reliable Air Ambulance Services with expert care. Transparent Air ambulance cost for seamless patient transfers worldwide." />
       </Helmet>
 
       <PageBanner
         titleComponent={
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Private Air <span className="text-primary-red">Ambulance</span>
+            Private Air <span className="text-primary-red">Ambulance Services</span>
           </h1>
         }
-        subtitle="Dedicated, fixed-wing aircraft providing the highest level of medical care for urgent, long-distance, and international patient transport."
+        subtitle="Fast, safe, and reliable air ambulance service with dedicated fixed-wing aircraft and advanced medical care for urgent, long-distance, and international patient transport."
       />
 
 
@@ -57,24 +57,22 @@ const PrivateAirAmbulance = () => {
         transition={{ duration: 0.6 }}
       >
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          Global Emergency Air Transfers
+Global Emergency Air Transfers
         </h2>
         <p className="text-lg text-gray-600 mb-8">
-          We provide rapid-response international and domestic transfers for patients requiring urgent care. Our specialized team ensures
-          continuity of treatment from departure to arrival, coordinating with hospitals and ground ambulances worldwide.
-        </p>
+ Get rapid-response air ambulance services for international and domestic patient transfers. Our expert medical team ensures continuous care from takeoff to landing, with full coordination between hospitals and ground ambulances worldwide. Available 24/7 for seamless hospital-to-hospital transfers.   </p>
         <div className="space-y-4">
           <div className="flex items-center space-x-3">
             <CheckCircle className="h-6 w-6 text-green-600" />
-            <span>24/7 global coordination and dispatch</span>
+            <span>Global Emergency Air Transfers</span>
           </div>
           <div className="flex items-center space-x-3">
             <CheckCircle className="h-6 w-6 text-green-600" />
-            <span>Expert team trained in emergency response</span>
+            <span>Air Ambulance Services</span>
           </div>
           <div className="flex items-center space-x-3">
             <CheckCircle className="h-6 w-6 text-green-600" />
-            <span>Seamless hospital-to-hospital transfers</span>
+            <span>International & Domestic Transfers</span>
           </div>
         </div>
       </motion.div>
@@ -121,11 +119,10 @@ const PrivateAirAmbulance = () => {
         transition={{ duration: 0.6 }}
       >
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          Your Flying Intensive Care Unit
+Your Flying ICU
         </h2>
         <p className="text-lg text-gray-600 mb-8">
-          Our private air ambulance service utilizes state-of-the-art, fixed-wing aircraft configured to serve as mobile ICUs. This service is ideal for patients who are critically ill or injured and require transport over long distances, including inter-state and international transfers. We ensure a seamless, safe, and comfortable journey with continuous medical monitoring.
-        </p>
+Our air ambulance services in India provide fixed-wing aircraft equipped as mobile ICUs, ensuring safe critical care air transfers for patients needing emergency evacuation, medical repatriation, or hospital-to-hospital transport. Available 24/7, with expert doctors, ICU onboard aircraft, and global reach for both domestic and international patient transfers.       </p>
         <div className="space-y-4">
           <div className="flex items-center space-x-3">
             <CheckCircle className="h-6 w-6 text-green-600" />
@@ -152,7 +149,7 @@ const PrivateAirAmbulance = () => {
       <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Key Features of Our Service</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Key Features of Our Air Ambulance Service</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature, index) => (
@@ -182,10 +179,10 @@ const PrivateAirAmbulance = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Frequently Asked Questions
+Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-600">
-              Answers to common questions about our air ambulance services.
+Answers to common questions about our air ambulance services.
             </p>
           </motion.div>
           <div className="space-y-4">
@@ -235,11 +232,9 @@ const PrivateAirAmbulance = () => {
             className="text-white"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Arrange a Private Air Ambulance Transfer
-            </h2>
+Arrange a Private Air Ambulance Transfer            </h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Our flight coordinators are available 24/7 to plan every detail of your medical transport.
-            </p>
+ Our 24/7 flight coordinators handle every detail of your medical transport, ensuring a safe, seamless, and timely transfer.            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="cta-button text-white px-8 py-4 text-lg font-semibold rounded-full hover:scale-105 transition-transform">
                 <a href="tel:+1234567890">

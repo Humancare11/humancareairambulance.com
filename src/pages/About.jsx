@@ -11,62 +11,63 @@ const About = () => {
     {
       icon: Heart,
       title: 'Compassionate Care',
-      description: 'We treat every patient with dignity, respect, and the highest level of medical care.'
+      description: 'We provide every patient with dignity, respect, and expert care throughout their air ambulance or medical transport journey, supported by trained medical escort professionals.'
     },
     {
       icon: Shield,
       title: 'Safety First',
-      description: 'Our rigorous safety protocols ensure the highest standards in medical transport.'
+      description: 'Our strict safety protocols guarantee the highest standards in emergency services, ground ambulance support, and international transfer.'
     },
     {
       icon: Clock,
       title: 'Rapid Response',
-      description: 'Time-critical situations demand immediate action. We respond within minutes.'
+      description: 'In time-critical situations, our team ensures immediate action for fast and reliable medical transport.'
     },
     {
       icon: Globe,
       title: 'Global Reach',
-      description: 'International medical transport capabilities with worldwide coverage.'
+      description: 'With extensive worldwide coverage, we offer seamless international transfer and medical repatriation services, ensuring patients receive the care they need wherever they are.'
     }
   ];
 
   const achievements = [
-    { number: '15+', label: 'Years of Experience' },
+    { number: '20+', label: 'Years of Experience' },
     { number: '10,000+', label: 'Successful Transports' },
     { number: '50+', label: 'Medical Professionals' },
     { number: '25+', label: 'Aircraft Fleet' }
   ];
 
   const certifications = [
-    'Commission on Accreditation of Medical Transport Systems (CAMTS)',
-    'International Association for Healthcare Security (IAHSS)',
-    'National Association of Emergency Medical Technicians (NAEMT)',
-    'Federal Aviation Administration (FAA) Certified',
-    'International SOS Medical Assistance'
+    'Decades of Experience',
+    '17,000+ successful repatriations ',
+    'Globally Trusted',
+    '24/7 Global Support',
+    'Fast & Reliable Response',
+    'Complete Medical Solutions'
   ];
 
   return (
     <>
       <Helmet>
-  <title>About Us - Mumbai, India: Humancare Air Ambulance</title>
-  <meta
-    name="description"
-    content="Humancare is on a mission to save lives through various medical services like Air Ambulance, Ground Ambulance, Transfer etc in India."
-  />
-  <meta
-    name="keywords"
-    content="about air ambulance, humancare Mumbai, medical transport India, emergency ambulance services, ground ambulance, patient transfer"
-  />
-  <meta
-    property="og:title"
-    content="About Us - Mumbai, India: Humancare Air Ambulance"
-  />
-  <meta
-    property="og:description"
-    content="Humancare is on a mission to save lives through various medical services like Air Ambulance, Ground Ambulance, Transfer etc in India."
-  />
-    <link rel="canonical" href="https://www.humancareairambulance.com/about" />
-</Helmet>
+        <title>About Us - Mumbai, India: Humancare Air Ambulance</title>
+        <meta
+          name="description"
+          content="Humancare is on a mission to save lives through various medical services like Air Ambulance, Ground Ambulance, Transfer etc in India."
+        />
+        <meta
+          name="keywords"
+          content="about air ambulance, humancare Mumbai, medical transport India, emergency ambulance services, ground ambulance, patient transfer"
+        />
+        <meta
+          property="og:title"
+          content="About Us - Mumbai, India: Humancare Air Ambulance"
+        />
+        <meta
+          property="og:description"
+          content="Humancare is on a mission to save lives through various medical services like Air Ambulance, Ground Ambulance, Transfer etc in India."
+        />
+        <link rel="canonical" href="https://www.humancareairambulance.com/about" />
+      </Helmet>
 
 
       <PageBanner
@@ -75,7 +76,7 @@ const About = () => {
             About <span className="text-primary-red">Humancare</span>
           </h1>
         }
-        subtitle="For over 15 years, HumanCare has been at the forefront of medical transport services, combining advanced medical technology with compassionate care to save lives and provide hope during critical moments."
+        subtitle="For over 15 years, Humancare World wide has led air ambulance and medical transport services, providing fast emergency services, expert medical escort, and reliable ground ambulance support for safe domestic and international transfers."
       />
 
       {/* Achievements Section */}
@@ -113,9 +114,8 @@ const About = () => {
               Our Mission & Values
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              To provide exceptional medical transport services that bridge the gap between emergency
-              situations and definitive medical care. We are committed to delivering rapid, safe, and
-              compassionate transport while maintaining the highest standards of medical excellence.
+              Our mission is to provide safe, rapid, and compassionate air ambulance and medical transport, with ground 
+              ambulance support and expert medical escort, for both domestic and international transfers.
             </p>
           </motion.div>
 
@@ -162,23 +162,31 @@ const About = () => {
             >
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
-                <p>
-                  HumanCare was founded in 2009 by Dr. Sarah Mitchell, a former emergency room physician
-                  who witnessed firsthand the critical need for rapid, professional medical transport
-                  services. After experiencing the loss of a patient due to delayed transport, she
-                  dedicated her life to ensuring no family would face the same tragedy.
-                </p>
-                <p>
-                  What started as a single helicopter operation has grown into a comprehensive medical
-                  transport network spanning multiple states. Our team has evolved from a small group
-                  of dedicated professionals to a family of over 200 medical experts, pilots, and
-                  support staff.
-                </p>
-                <p>
-                  Today, HumanCare continues to innovate in medical transport technology while maintaining
-                  our core commitment to compassionate care. Every transport is a testament to our
-                  founding principle: when lives hang in the balance, excellence is not optional.
-                </p>
+                <p>Founded in 2004 by Dr. Hidayat Khan, Humancare began as Mumbai’s first private ground ambulance service, revolutionizing emergency medical transport in India. Recognizing the critical need for rapid, professional care, we expanded into air ambulance services, marking a pivotal moment with our inaugural international flight from India to France.</p>
+              <p>Today, Humancare stands as a leading provider of medical transport, offering comprehensive services that include:</p>
+              <p>Air Ambulance: Equipped aircraft with ICU facilities for critical care during transit.
+
+
+Medical Repatriation: Safe and efficient transfer of patients across borders.
+
+<br/>Ground Ambulance: 24/7 emergency and non-emergency transportation.
+
+<br/>Medical Escort: Trained professionals accompanying patients during travel.
+
+<br/>Hospital Assistance: Coordination with medical facilities for seamless care.
+
+<br/>Tele Consultation & House-Call: Remote medical advice and in-home care services.
+
+<br/>Home Healthcare: Post-hospitalization care in the comfort of your home.
+
+<br/>Mortal Remains Transfer: Dignified and respectful repatriation services.
+
+<br/>Corporate Medical Solutions: Tailored healthcare services for organizations.</p>
+            
+            <p>With over 200 dedicated professionals, including ICU doctors, flight nurses, and critical care paramedics, we operate globally, ensuring that every patient receives the highest standard of care during their journey.
+<br/>At Humancare, we believe that when lives are at stake, excellence in medical transport is not optional it’s a commitment.</p>
+              
+              
               </div>
             </motion.div>
           </div>
@@ -196,8 +204,7 @@ const About = () => {
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Why Choose Us</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our commitment to excellence is validated by industry-leading certifications and
-              accreditations.
+At Humancare World Wide, we bring years of expertise and compassion to every mission. With 17,000+ successful repatriations, 24/7 support, and complete end-to-end care, we are trusted globally for safe, reliable, and dignified medical assistance.
             </p>
           </motion.div>
 
@@ -228,11 +235,9 @@ const About = () => {
             className="text-white"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Arrange a Private Air Ambulance Transfer
-            </h2>
+Arrange a Private Air Ambulance Transfer            </h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Our flight coordinators are available 24/7 to plan every detail of your medical transport.
-            </p>
+Our 24/7 flight coordinators handle every detail to ensure a safe and seamless medical transport experience.            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 asChild
@@ -246,6 +251,7 @@ const About = () => {
               <Button
                 asChild
                 variant="outline"
+
                 className="border-white text-white hover:text-blue px-8 py-4 text-lg rounded-full"
               >
                 <Link to="/contact">Request a Quote</Link>

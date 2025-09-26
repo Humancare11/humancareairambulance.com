@@ -5,11 +5,11 @@ export default function Ranchi() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Ranchi | Human Care Air Ambulance</title>
+                <title>Air ambulance services in Ranchi</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="humancare is the only licensed provider of Air Ambulance Services in Ranchi, India. We have a 100% safety record of providing medical transport"
                 />
             </Helmet>
 

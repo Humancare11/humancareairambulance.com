@@ -5,11 +5,12 @@ export default function Guwahati() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Guwahati| Human Care Air Ambulance</title>
+                <title>
+Air ambulance service in Guwahati - humancare world wide</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="Air Ambulance Service in Guwahati humancare is providing affordable flight and helicopter ambulance in Guwahati with medically equipped."
                 />
             </Helmet>
 

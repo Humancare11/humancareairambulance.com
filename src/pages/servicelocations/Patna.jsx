@@ -5,11 +5,11 @@ export default function Patna() {
     return (
         <main className="min-h-screen bg-gray-50 pt-20">
             <Helmet>
-                <title>Air Ambulance Services in Patna | Human Care Air Ambulance</title>
+                <title>Air Ambulance Service in Patna - Mumbai, India: Human Care Air Ambulance</title>
                 <meta name="robots" content="index,follow" />
                 <meta
                     name="description"
-                    content="Human Care Air Ambulance provides affordable and reliable emergency and non-emergency air ambulance services in Chennai with helicopters, jets, and medical flights."
+                    content="Looking for the best air ambulance services in Patna? Call the humancare team at +91-9699999065 and Get the best emergency patient care."
                 />
             </Helmet>
 
