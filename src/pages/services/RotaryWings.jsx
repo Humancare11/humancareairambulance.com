@@ -15,25 +15,25 @@ const RotaryWings = () => {
   };
 
   const features = [
-    { icon: Shield, title: 'ICU-Level Care', description: 'Our aircraft are equipped as flying intensive care units, with state-of-the-art medical technology.' },
-    { icon: Heart, title: 'Specialized Medical Team', description: 'A dedicated team of flight physicians, nurses, and paramedics accompanies every patient.' },
-    { icon: Clock, title: 'Rapid Deployment', description: 'We can be airborne within hours of your call, ensuring timely transport for critical cases.' },
-    { icon: Plane, title: 'Bed-to-Bed Service', description: 'We manage the entire process, from the patient\'s bedside at the sending facility to the receiving hospital.' },
+    { icon: Shield, title: 'ICU-Level Care', description: 'Our aircraft serve as flying ICUs, fully equipped with state-of-the-art medical technology for critical patient care.' },
+    { icon: Heart, title: 'Specialized Medical Team', description: 'Every patient is accompanied by a dedicated team of flight physicians, nurses, and paramedics.' },
+    { icon: Clock, title: 'Rapid Deployment', description: 'We can take off within hours of your call, providing rapid and timely transport for critical patients.' },
+    { icon: Plane, title: 'Bed-to-Bed Service', description: 'We manage the entire process, from the patients bedside at the sending facility to the receiving hospital.' },
   ];
 
   const faqs = [
-    { question: "What is an air ambulance?", answer: "An air ambulance is a specially equipped aircraft..." },
-    { question: "When should I consider an air ambulance?", answer: "You should consider an air ambulance for time-sensitive..." },
-    { question: "How much does an air ambulance service cost?", answer: "The cost varies widely based on factors..." },
-    { question: "Is HumanCare accredited?", answer: "Yes, HumanCare is fully accredited by CAMTS..." }
+    { question: "What is a Rotary Wing", answer: "A helicopter with specialized equipment for providing emergency air ambulance services is known as a rotary-wing air ambulance. Functioning as a flying ICU, it carries advanced medical equipment and a skilled team of doctors, nurses, and paramedics to ensure safe, continuous care. For quick emergency response, inter-hospital transfers, and reaching isolated or congested locations, rotary wing air ambulances are perfect. When every second counts, patients can receive a quick and dependable medical evacuation with clear Air Ambulance Cost options." },
+    { question: "When Should I Consider an Air Ambulance?", answer: "Consider our Air Ambulance Services for time-sensitive medical situations requiring rapid, safe transport. Ideal for severe injuries, critical illnesses, or patients needing continuous ICU-level care during long-distance or international transfers, with transparent Air Ambulance Cost for every journey." },
+    { question: "How Much Does an Air Ambulance Cost?", answer: "The cost of our Air Ambulance Services depends on distance, aircraft type, level of medical care, and equipment. Domestic transfers cost less than international, with transparent Air Ambulance Cost and customized quotes for every patient transfer." },
+    { question: "Is HumanCare Accredited?", answer: "Yes, HumanCare is fully accredited by CAMTS (Commission on Accreditation of Medical Transport Systems), ensuring highest standards of safety, quality, and professional care in every air ambulance and medical transport service." }
   ];
 
 
   return (
     <>
       <Helmet>
-        <title>Rotary Wings Services | HumanCare</title>
-        <meta name="description" content="Dedicated private air ambulance services for critical medical transport. Our fixed-wing aircraft provide ICU-level care for long-distance and international patient transfers." />
+        <title>Rotary Wings Services | Humancare</title>
+        <meta name="description" content="Reliable Rotary Wings Services providing urgent Air Ambulance Services with expert care. Transparent Air Ambulance Cost for safe and timely patient transfers" />
       </Helmet>
 
       <PageBanner
@@ -42,7 +42,7 @@ const RotaryWings = () => {
             Rotary Wings <span className="text-primary-red">Services</span>
           </h1>
         }
-        subtitle="Dedicated, fixed-wing aircraft providing the highest level of medical care for urgent, long-distance, and international patient transport."
+        subtitle="Our fixed-wing aircraft provide advanced medical care for urgent, long-distance, and international patient transfers, ensuring safe and seamless transport."
       />
 
 
@@ -57,11 +57,11 @@ const RotaryWings = () => {
         transition={{ duration: 0.6 }}
       >
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          Global Emergency Air Transfers
+Global Emergency Air Transfers
         </h2>
         <p className="text-lg text-gray-600 mb-8">
-          We provide rapid-response international and domestic transfers for patients requiring urgent care. Our specialized team ensures
-          continuity of treatment from departure to arrival, coordinating with hospitals and ground ambulances worldwide.
+         
+ We offer rapid-response air ambulance services for domestic and international patient transfers. Our expert medical team ensures continuous care from departure to arrival, coordinating with hospitals and ground ambulances worldwide.
         </p>
         <div className="space-y-4">
           <div className="flex items-center space-x-3">
@@ -70,7 +70,7 @@ const RotaryWings = () => {
           </div>
           <div className="flex items-center space-x-3">
             <CheckCircle className="h-6 w-6 text-green-600" />
-            <span>Expert team trained in emergency response</span>
+            <span>Specialized emergency response team</span>
           </div>
           <div className="flex items-center space-x-3">
             <CheckCircle className="h-6 w-6 text-green-600" />
@@ -121,11 +121,10 @@ const RotaryWings = () => {
         transition={{ duration: 0.6 }}
       >
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          Your Flying Intensive Care Unit
+Your Flying Intensive Care Unit
         </h2>
         <p className="text-lg text-gray-600 mb-8">
-          Our private air ambulance service utilizes state-of-the-art, fixed-wing aircraft configured to serve as mobile ICUs. This service is ideal for patients who are critically ill or injured and require transport over long distances, including inter-state and international transfers. We ensure a seamless, safe, and comfortable journey with continuous medical monitoring.
-        </p>
+Our private air ambulance service utilizes state-of-the-art, fixed-wing aircraft configured to serve as mobile ICUs. This service is ideal for patients who are critically ill or injured and require transport over long distances, including inter-state and international transfers. We ensure a seamless, safe, and comfortable journey with continuous medical monitoring.        </p>
         <div className="space-y-4">
           <div className="flex items-center space-x-3">
             <CheckCircle className="h-6 w-6 text-green-600" />
@@ -238,8 +237,7 @@ const RotaryWings = () => {
               Arrange a Private Air Ambulance Transfer
             </h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Our flight coordinators are available 24/7 to plan every detail of your medical transport.
-            </p>
+ Our 24/7 flight coordinators manage every detail of your medical transport, ensuring a safe, seamless, and timely transfer.            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="cta-button text-white px-8 py-4 text-lg font-semibold rounded-full hover:scale-105 transition-transform">
                 <a href="tel:+1234567890">

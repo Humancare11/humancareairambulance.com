@@ -15,17 +15,17 @@ const CommercialAirAmbulance= () => {
   };
 
   const features = [
-    { icon: Shield, title: 'ICU-Level Care', description: 'Our aircraft are equipped as flying intensive care units, with state-of-the-art medical technology.' },
-    { icon: Heart, title: 'Specialized Medical Team', description: 'A dedicated team of flight physicians, nurses, and paramedics accompanies every patient.' },
-    { icon: Clock, title: 'Rapid Deployment', description: 'We can be airborne within hours of your call, ensuring timely transport for critical cases.' },
-    { icon: Plane, title: 'Bed-to-Bed Service', description: 'We manage the entire process, from the patient\'s bedside at the sending facility to the receiving hospital.' },
+    { icon: Shield, title: 'ICU-Level Care', description: 'Our aircraft serve as flying ICUs, fully equipped with advanced medical technology for critical patient care.' },
+    { icon: Heart, title: 'Specialized Medical Team', description: 'Every patient is accompanied by a dedicated team of flight physicians, nurses, and paramedics.' },
+    { icon: Clock, title: 'Rapid Deployment', description: 'We can take off within hours of your call, providing rapid and timely transport for critical patients.' },
+    { icon: Plane, title: 'Bed-to-Bed Service', description: 'We handle the complete transfer, from the patient’s bedside at the sending facility to arrival at the receiving hospital.' },
   ];
 
   const faqs = [
-    { question: "What is an air ambulance?", answer: "An air ambulance is a specially equipped aircraft..." },
-    { question: "When should I consider an air ambulance?", answer: "You should consider an air ambulance for time-sensitive..." },
-    { question: "How much does an air ambulance service cost?", answer: "The cost varies widely based on factors..." },
-    { question: "Is HumanCare accredited?", answer: "Yes, HumanCare is fully accredited by CAMTS..." }
+    { question: "What is an air ambulance?", answer: "An air ambulance is a specially equipped aircraft or helicopter designed to provide urgent Air Ambulance Services. Functioning as a flying ICU, it includes advanced medical equipment and a trained team of doctors, nurses, and paramedics to ensure safe, continuous care during emergency, long-distance, or international transfers. We provide transparent Air Ambulance Cost with every service to ensure clarity and peace of mind." },
+    { question: "When should I consider an air ambulance?", answer: "Consider an air ambulance for time-sensitive medical situations where rapid transport is critical. This includes severe injuries, life-threatening illnesses, or patients needing continuous ICU-level care during long-distance or international transfers. Air ambulances ensure fast, safe, and closely monitored medical transport." },
+    { question: "How much does an air ambulance service cost?", answer: "Air ambulance cost depends on factors like distance, type of aircraft, level of medical care, and specialized equipment. Domestic transfers are generally less expensive than international repatriation, and services with ICU onboard or medical escorts may cost more. We provide transparent, customized quotes for every patient transfer." },
+    { question: "Is HumanCare accredited?", answer: "Yes, HumanCare is fully accredited by CAMTS (Commission on Accreditation of Medical Transport Systems), ensuring the highest standards of safety, quality, and professional care in every air ambulance and medical transport service." }
   ];
 
 
@@ -33,16 +33,16 @@ const CommercialAirAmbulance= () => {
     <>
       <Helmet>
         <title>commercial Air Ambulance Services | HumanCare</title>
-        <meta name="description" content="Dedicated private air ambulance services for critical medical transport. Our fixed-wing aircraft provide ICU-level care for long-distance and international patient transfers." />
+        <meta name="description" content="Reliable Commercial Air Ambulance Services providing advanced care for urgent transfers. Transparent Air Ambulance Cost for safe, seamless patient transport." />
       </Helmet>
 
       <PageBanner
         titleComponent={
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            commercial Air <span className="text-primary-red">Ambulance</span>
+            commercial Air <span className="text-primary-red">Ambulance services</span>
           </h1>
         }
-        subtitle="Dedicated, fixed-wing aircraft providing the highest level of medical care for urgent, long-distance, and international patient transport."
+        subtitle="Our dedicated fixed-wing aircraft provide advanced Air Ambulance Services for urgent, long distance, and international patient transfers, with transparent Air Ambulance Cost for every journey."
       />
 
 
@@ -57,11 +57,10 @@ const CommercialAirAmbulance= () => {
         transition={{ duration: 0.6 }}
       >
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          Global Emergency Air Transfers
+Global Emergency Air Transfers
         </h2>
         <p className="text-lg text-gray-600 mb-8">
-          We provide rapid-response international and domestic transfers for patients requiring urgent care. Our specialized team ensures
-          continuity of treatment from departure to arrival, coordinating with hospitals and ground ambulances worldwide.
+          We offer rapid-response air ambulance services for domestic and international patient transfers. Our expert medical team ensures continuous care from departure to arrival, coordinating with hospitals and ground ambulances worldwide.
         </p>
         <div className="space-y-4">
           <div className="flex items-center space-x-3">
@@ -70,7 +69,7 @@ const CommercialAirAmbulance= () => {
           </div>
           <div className="flex items-center space-x-3">
             <CheckCircle className="h-6 w-6 text-green-600" />
-            <span>Expert team trained in emergency response</span>
+            <span>Specialized emergency response team</span>
           </div>
           <div className="flex items-center space-x-3">
             <CheckCircle className="h-6 w-6 text-green-600" />
@@ -121,11 +120,9 @@ const CommercialAirAmbulance= () => {
         transition={{ duration: 0.6 }}
       >
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          Your Flying Intensive Care Unit
-        </h2>
+Your Flying Intensive Care Unit        </h2>
         <p className="text-lg text-gray-600 mb-8">
-          Our private air ambulance service utilizes state-of-the-art, fixed-wing aircraft configured to serve as mobile ICUs. This service is ideal for patients who are critically ill or injured and require transport over long distances, including inter-state and international transfers. We ensure a seamless, safe, and comfortable journey with continuous medical monitoring.
-        </p>
+ Our private air ambulance service uses state-of-the-art fixed-wing aircraft configured as mobile ICUs, providing continuous medical monitoring for critically ill or injured patients. Ideal for long-distance, inter-state, and international transfers, we ensure safe, seamless, and comfortable journeys.        </p>
         <div className="space-y-4">
           <div className="flex items-center space-x-3">
             <CheckCircle className="h-6 w-6 text-green-600" />
@@ -235,11 +232,10 @@ const CommercialAirAmbulance= () => {
             className="text-white"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Arrange a Private Air Ambulance Transfer
+Arrange a Private Air Ambulance Transfer
             </h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Our flight coordinators are available 24/7 to plan every detail of your medical transport.
-            </p>
+Our 24/7 flight coordinators manage every detail of your medical transport, ensuring a safe, seamless, and timely transfer.            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="cta-button text-white px-8 py-4 text-lg font-semibold rounded-full hover:scale-105 transition-transform">
                 <a href="tel:+1234567890">

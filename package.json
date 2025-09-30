@@ -40,10 +40,7 @@
     "tailwindcss": "^3.4.13",
     "vite": "^7.1.2"
   },
-
-    "resolutions": {
-  "@rollup/rollup-linux-x64-gnu": "^3.0.0"
-}
-
- 
+  "resolutions": {
+    "@rollup/rollup-linux-x64-gnu": "^3.0.0"
+  }
 }

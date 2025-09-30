@@ -30,7 +30,6 @@ import Kolkata from "./pages/servicelocations/Kolkata";
 import Patna from "./pages/servicelocations/Patna";
 import Ahmedabad from "./pages/servicelocations/Ahmedabad";
 import Surat from "./pages/servicelocations/Surat"; 
-import New from "./pages/servicelocations/New"; 
 import Guwahati from "./pages/servicelocations/Guwahati";
 import Hyderabad from "./pages/servicelocations/Hyderabad";
 import Pakistan from "./pages/servicelocations/Pakistan";
@@ -88,7 +87,6 @@ function App() {
         <Route path="/air-ambulance-services-patna" element={<Patna />} />
         <Route path="/air-ambulance-services-ahmedabad" element={<Ahmedabad/> } />
         <Route path="/air-ambulance-services-surat" element={<Surat/> } />
-        <Route path="/new" element={<New />} />
         <Route path="/air-ambulance-services-guwahati" element={<Guwahati/> } />
         <Route path="/air-ambulance-services-hyderabad" element={<Hyderabad/> } />
         <Route path="/air-ambulance-services-pakistan" element={<Pakistan/> } />

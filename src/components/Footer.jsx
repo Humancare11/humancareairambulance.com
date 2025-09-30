@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Phone, Mail, MapPin, Clock, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { FiPhone } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -122,7 +124,29 @@ const Footer = () => {
           </div>
         </div>
       </div>
+         <div className="fixed bottom-4 right-4 flex flex-col gap-3 z-50">
+      {/* Call Button */}
+      <a
+        href="tel:+919699999067"
+        className="flex items-center justify-center w-12 h-12 rounded-full bg-red-600 text-white shadow-md 
+        transition-transform duration-200 hover:scale-110 hover:shadow-lg"
+      >
+        <FiPhone size={22} />
+      </a>
+
+      {/* WhatsApp Button */}
+      <a
+        href="https://wa.me/919699999067"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-center w-12 h-12 rounded-full bg-green-500 text-white shadow-md 
+        transition-transform duration-200 hover:scale-110 hover:shadow-lg"
+      >
+        <FaWhatsapp size={22} />
+      </a>
+    </div>
     </footer>
+    
   );
 };
 
