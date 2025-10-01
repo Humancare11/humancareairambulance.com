@@ -6,6 +6,8 @@ import { Plane, Shield, Heart, Clock, CheckCircle, Phone, Plus, Minus } from 'lu
 import { Button } from '../../components/ui/button';
 import PageBanner from '../../components/PageBanner';
 import ContactForm from '../../components/ContactForm';
+import rotarywings from '../../assets/RotaryWings.jpg'
+import rotarywingsservices from '../../assets/RotaryWingsServices.jpg'
 
 const RotaryWings = () => {
   const [openFaq, setOpenFaq] = useState(null); // 👈 add state
@@ -88,7 +90,7 @@ Global Emergency Air Transfers
         <img
           className="w-full h-96 object-cover rounded-xl shadow-healthcare"
           alt="Air ambulance ready for global emergency transfers"
-          src="https://images.unsplash.com/photo-1529070538774-1843cb3265df"
+          src={rotarywings}
         />
       </motion.div>
 
@@ -110,7 +112,7 @@ Global Emergency Air Transfers
         <img
           className="w-full h-96 object-cover rounded-xl shadow-healthcare"
           alt="Interior of a private air ambulance"
-          src="https://images.unsplash.com/photo-1696243144337-cb0532507e9a"
+          src={rotarywingsservices}
         />
       </motion.div>
 

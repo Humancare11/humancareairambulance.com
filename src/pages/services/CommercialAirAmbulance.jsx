@@ -6,6 +6,10 @@ import { Plane, Shield, Heart, Clock, CheckCircle, Phone, Plus, Minus } from 'lu
 import { Button } from '../../components/ui/button';
 import PageBanner from '../../components/PageBanner';
 import ContactForm from '../../components/ContactForm';
+import CommercialAirAmbulances from '../../assets/CommercialAirAmbulance.png'
+import CommercialAirAmbulanceServices from '../../assets/CommercialAirAbulanceservices.png'
+
+
 
 const CommercialAirAmbulance= () => {
   const [openFaq, setOpenFaq] = useState(null); // 👈 add state
@@ -87,7 +91,7 @@ Global Emergency Air Transfers
         <img
           className="w-full h-96 object-cover rounded-xl shadow-healthcare"
           alt="Air ambulance ready for global emergency transfers"
-          src="https://images.unsplash.com/photo-1529070538774-1843cb3265df"
+          src={CommercialAirAmbulances}
         />
       </motion.div>
 
@@ -109,7 +113,7 @@ Global Emergency Air Transfers
         <img
           className="w-full h-96 object-cover rounded-xl shadow-healthcare"
           alt="Interior of a private air ambulance"
-          src="https://images.unsplash.com/photo-1696243144337-cb0532507e9a"
+          src={CommercialAirAmbulanceServices}
         />
       </motion.div>
 

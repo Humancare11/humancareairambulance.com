@@ -5,6 +5,9 @@ import { Shield, Award, Users, Heart, Clock, Globe, CheckCircle, Phone } from 'l
 import { Link } from 'react-router-dom';
 import PageBanner from '../components/PageBanner';
 import { Button } from '../components/ui/button';
+// import  from '../assets/OurStoryAirAmbulanceIndia.png';
+import humancareabout from '../assets/OurStoryAirAmbulanceIndia.png'
+
 
 const About = () => {
   const values = [
@@ -149,9 +152,9 @@ const About = () => {
               transition={{ duration: 0.6 }}
             >
               <img
-                className="w-full h-96 object-cover rounded-xl shadow-healthcare"
-                alt="HumanCare founder portrait"
-                src="https://images.unsplash.com/photo-1675270714610-11a5cadcc7b3"
+                className="w-full  object-cover rounded-xl shadow-healthcare"
+                alt="Humancare"
+                src={humancareabout}
               />
             </motion.div>
 

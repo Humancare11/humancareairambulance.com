@@ -2,10 +2,13 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Shield, Clock, Users, Star, Phone, Plane, Globe, Plus, Minus, Send, Mail, MapPin, Heart, CheckCircle } from 'lucide-react';
+import { ArrowRight, Shield, Clock, Users, Star, Phone, Plane, Globe, Plus, Minus, Send, Mail, MapPin, Heart, CheckCircle, PlaneTakeoff } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { useToast } from '../components/ui/use-toast';
 import ContactForm from '../components/ContactForm';
+import HeroImg from '../assets/AirAmbulanceServices.jpg';
+import AirAmbulances from '../assets/AirAmbulances.jpg'
+
 
 const Home = () => {
   const { toast } = useToast();
@@ -26,7 +29,7 @@ const Home = () => {
       link: '/services/commercial-air-ambulance'
     },
     {
- icon: Globe,
+ icon: PlaneTakeoff,
        title: 'Rotary Wings (Helicopter)',
       description: 'Rapid, point-to-point transport for critical emergencies, ideal for short distances and remote areas.',
       link: '/services/rotary-wings'
@@ -168,8 +171,13 @@ const Home = () => {
         <div className="absolute inset-0 hero-gradient"></div>
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="absolute inset-0">
-          <img class="w-full h-full object-cover opacity-20" alt="Abstract background of a medical helicopter interior" src="https://images.unsplash.com/photo-1696243144337-cb0532507e9a" />
-        </div>
+          {/* <img class="w-full h-full object-cover opacity-20" alt="Abstract background of a medical helicopter interior" src="https://images.unsplash.com/photo-1696243144337-cb0532507e9a" /> */}
+        
+        <img
+      className="w-full h-full object-cover opacity-20"
+      alt="Abstract background of a medical helicopter interior"
+      src={HeroImg}
+    /></div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <motion.div
@@ -319,7 +327,7 @@ Humancare has been a reputable name in air ambulance and medical transport for m
             >
                <div className="flex justify-center items-center">
 
-<img class="w-[500px] h-[500px] object-cover rounded-xl shadow-healthcare" alt="A compassionate nurse holding a patient's hand in a medical jet" src="https://images.unsplash.com/photo-1615561776627-449e68725b57" />
+<img class="w-[500px] h-[500px] object-cover rounded-xl shadow-healthcare" alt="A compassionate nurse holding a patient's hand in a medical jet" src={AirAmbulances}/>
             </div>
             </motion.div>
           </div>
