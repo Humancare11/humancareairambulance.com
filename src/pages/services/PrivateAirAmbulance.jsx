@@ -6,8 +6,8 @@ import { Plane, Shield, Heart, Clock, CheckCircle, Phone, Plus, Minus } from 'lu
 import { Button } from '../../components/ui/button';
 import PageBanner from '../../components/PageBanner';
 import ContactForm from '../../components/ContactForm';
-import PrivateAirambulances from '../../assets/PrivateAirambulance.jpg'
-import PrivateAirambulanceIcu from '../../assets/PrivateAirambulanceIcu.jpg'
+import PrivateAirambulances from '../../assets/PrivateAirambulance.jpg';
+import PrivateAirambulanceIcu from '../../assets/PrivateAirambulanceIcu.jpg';
 
 
 const PrivateAirAmbulance = () => {
