@@ -60,10 +60,10 @@ const ContactForm = () => {
               <div>
                 <p className="text-gray-700 text-sm">Emergency 24/7</p>
  <a
-                  href="tel:+919699999067"
+                  href="tel:+919820073734"
                   className="font-semibold text-gray-900 hover:text-primary-red transition"
                 >
-                  +91 9699999067
+                  +919820073734
                 </a>               </div>
             </div>
 
@@ -73,10 +73,10 @@ const ContactForm = () => {
               <div>
                 <p className="text-gray-700 text-sm">Whatsapp Us</p>
                 <a
-                  href="https://wa.me/919699999065"
+                  href="https://wa.me/919820073734"
                   className="font-semibold text-gray-900 hover:text-primary-red transition"
                 >
-                  +91 9699999065
+                  +919820073734
                 </a>              </div>
             </div>
 

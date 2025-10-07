@@ -25,7 +25,7 @@ function Contact() {
             Contact <span className="text-primary-red">Us</span>
           </h1>
         }
-        subtitle="For over 15 years, HumanCare has been at the forefront of medical transport services, combining advanced medical technology with compassionate care to save lives and provide hope during critical moments."
+        subtitle="For over 20+ years, Humancare has been at the forefront of medical transport services, combining advanced medical technology with compassionate care to save lives and provide hope during critical moments."
       />
     <ContactForm/>
     </>

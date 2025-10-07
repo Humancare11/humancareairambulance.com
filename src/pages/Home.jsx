@@ -124,16 +124,43 @@ const Home = () => {
     });
     setFormData({ name: '', email: '', message: '' });
   };
+   const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "MedicalOrganization",
+    "name": "Humancare Air Ambulance",
+    "url": "https://humancareairambulance.com",
+    "logo": "https://humancareairambulance.com/logo.png",
+    "description":
+      "Professional medical transport services including air ambulance, ground ambulance, and international medical transfers",
+    "telephone": "+919699999065",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "G-30 Dhiraj Heritage, Santacruz, Mumbai",
+      "addressLocality": "Mumbai",
+      "addressCountry": "India"
+    },
+    "availableService": [
+      { "@type": "Service", "name": "Private Air Ambulance" },
+      { "@type": "Service", "name": "Commercial Air Ambulance" },
+      { "@type": "Service", "name": "Rotary Wing Services" }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/yourpage",
+      "https://www.instagram.com/yourpage"
+    ]
+  };
 
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Mumbai, India: Human Care Air Ambulance & Medical Services</title>
         <meta name="description" content="Human Care Air Ambulance in Mumbai, India, offers top-notch air ambulance and medical services. Reliable 24/7 medical transport and expert healthcare solutions. Contact us for immediate assistance." />
         <meta name="keywords" content="air ambulance, medical transport, emergency services, ground ambulance, medical escort, international transfer" />
         <meta property="og:title" content="Best Medical Air Ambulance Services in India" />
         <meta property="og:description" content="Human Care Air Ambulance is the leading Air Ambulance service provider in India. Our core specialties are commercial flight ambulance, Charter Flight ambulance ,medical escort service, and more. Call now!" />
         <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://humancareairambulance.com/" />
+
         <script type="application/ld+json">
   {JSON.stringify({
     "@context": "https://schema.org",
@@ -164,7 +191,36 @@ const Home = () => {
   })}
 </script>
 
-      </Helmet>
+      </Helmet> */}
+      <Helmet>
+      <title>
+        Mumbai, India: Human Care Air Ambulance & Medical Services
+      </title>
+      <meta
+        name="description"
+        content="Human Care Air Ambulance in Mumbai, India, offers top-notch air ambulance and medical services. Reliable 24/7 medical transport and expert healthcare solutions. Contact us for immediate assistance."
+      />
+      <meta
+        name="keywords"
+        content="air ambulance, medical transport, emergency services, ground ambulance, medical escort, international transfer"
+      />
+      <meta
+        property="og:title"
+        content="Best Medical Air Ambulance Services in India"
+      />
+      <meta
+        property="og:description"
+        content="Human Care Air Ambulance is the leading Air Ambulance service provider in India. Our core specialties are commercial flight ambulance, Charter Flight ambulance ,medical escort service, and more. Call now!"
+      />
+      <meta property="og:type" content="website" />
+      <link rel="canonical" href="https://humancareairambulance.com/" />
+
+      {/* ✅ Correct JSON-LD injection */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+    </Helmet>
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -207,11 +263,11 @@ Air Ambulance Services &              <br />
               </Button>
               
               <a
-                href="tel: +919699999067"
+                href="tel: +919820073734"
                 className="flex items-center space-x-2 bg-white/20 backdrop-blur-sm text-white px-6 py-4 rounded-full hover:bg-white/30 transition-colors"
               >
                 <Phone className="h-5 w-5" />
-                <span className="font-semibold">Call Now: +91 9699999067</span>
+                <span className="font-semibold">Call Now: +919820073734 </span>
               </a>
             </div>
           </motion.div>

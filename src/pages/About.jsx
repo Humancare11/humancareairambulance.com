@@ -79,7 +79,7 @@ const About = () => {
             About <span className="text-primary-red">Humancare</span>
           </h1>
         }
-        subtitle="For over 15 years, Humancare World wide has led air ambulance and medical transport services, providing fast emergency services, expert medical escort, and reliable ground ambulance support for safe domestic and international transfers."
+        subtitle="For over 20+ years, Humancare has led air ambulance and medical transport services, providing fast emergency services, expert medical escort, and reliable ground ambulance support for safe domestic and international transfers."
       />
 
       {/* Achievements Section */}
@@ -246,7 +246,7 @@ Our 24/7 flight coordinators handle every detail to ensure a safe and seamless m
                 asChild
                 className="cta-button text-white px-8 py-4 text-lg font-semibold rounded-full hover:scale-105 transition-transform"
               >
-                <a href="tel:+919699999067">
+                <a href="tel:+919820073734">
                   <Phone className="mr-2 h-5 w-5" />
                   Call for Immediate Help
                 </a>

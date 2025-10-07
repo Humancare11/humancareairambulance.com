@@ -77,10 +77,10 @@ const Footer = () => {
                 <Phone className="h-5 w-5 text-primary-red" />
                 {/* <span className="text-gray-300">+91 9699999067</span> */}
                  <a
-        href="tel:+919699999067"
+        href="tel:+919820073734"
         className="text-gray-300 hover:text-primary-red transition"
       >
-        +91 9699999067
+        +919820073734
       </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -96,7 +96,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Clock className="h-5 w-5 text-primary-red" />
 <a
-        href="tel:+919699999067"
+        href="tel:+919820073734"
         className="text-gray-300 hover:text-primary-red transition"
       >
         24/7 Emergency Services
@@ -127,7 +127,7 @@ const Footer = () => {
          <div className="fixed bottom-4 right-4 flex flex-col gap-3 z-50">
       {/* Call Button */}
       <a
-        href="tel:+919699999067"
+        href="tel:+919820073734"
         className="flex items-center justify-center w-12 h-12 rounded-full bg-red-600 text-white shadow-md 
         transition-transform duration-200 hover:scale-110 hover:shadow-lg"
       >
@@ -136,7 +136,7 @@ const Footer = () => {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/919699999067"
+        href="https://wa.me/+919820073734"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center w-12 h-12 rounded-full bg-green-500 text-white shadow-md 

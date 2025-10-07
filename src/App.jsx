@@ -46,6 +46,9 @@ import Bangalore from "./pages/servicelocations/Bangalore";
 import Arabia from "./pages/servicelocations/Arabia";
 import Raipur from "./pages/servicelocations/Raipur";
 
+
+import NotFound from "./pages/NotFound";
+
 // ScrollToTop component
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -102,6 +105,10 @@ function App() {
  <Route path="/air-ambulance-services-bangalore" element={<Bangalore/>}/>
   <Route path="/air-ambulance-services-Arabia" element={<Arabia/>}/>
    <Route path="/air-ambulance-services-raipur" element={<Raipur/>}/>
+        <Route path="*" element={<NotFound />} />
+
+
+
    <Route path="/blogs"element={<BlogCard/>}/>
   <Route path="/blog1" element={<Blog1 />} />
 

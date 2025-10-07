@@ -242,7 +242,7 @@ Arrange a Private Air Ambulance Transfer
 Our 24/7 flight coordinators manage every detail of your medical transport, ensuring a safe, seamless, and timely transfer.            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="cta-button text-white px-8 py-4 text-lg font-semibold rounded-full hover:scale-105 transition-transform">
-                <a href="tel:+1234567890">
+                <a href="tel:+919820073734">
                   <Phone className="mr-2 h-5 w-5" />
                   Call for Immediate Help
                 </a>
